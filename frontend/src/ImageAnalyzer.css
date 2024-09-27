@@ -1,0 +1,81 @@
+/* General Container */
+.analyzer-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title */
+  .analyzer-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styles */
+  .analyzer-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .analyzer-input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    background-color: #fff;
+    transition: border-color 0.3s ease;
+  }
+  
+  .analyzer-input:focus {
+    border-color: #8BEC3B; /* Green color on focus */
+    outline: none;
+  }
+  
+  /* Button Styles */
+  .analyzer-button {
+    padding: 10px;
+    background-color: #FF8A00; /* Orange button */
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .analyzer-button:hover {
+    background-color: #ff7a00;
+  }
+  
+  /* Result Box */
+  .analyzer-result {
+    background-color: #e9ffe9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    border: 1px solid #8BEC3B;
+  }
+  
+  .analyzer-result h2 {
+    margin-top: 0;
+  }
+  
+  .analyzer-result pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  /* Error Message */
+  .analyzer-error {
+    color: red;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
